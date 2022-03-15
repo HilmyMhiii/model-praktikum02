@@ -15,6 +15,8 @@ class Praktikum2Controller extends Controller
     public function index()
     {
         //
+        $praktikum2 = praktikum2::all();
+        return view('welcome', compact('praktikum2'));
     }
 
     /**

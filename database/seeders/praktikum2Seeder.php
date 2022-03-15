@@ -16,7 +16,7 @@ class praktikum2Seeder extends Seeder
     {
         //
         praktikum2::create([
-            'judul' => 'Buah - Buahan',
+            'judul' => 'Toko Buah',
             'deskripsi' => 'Berbagai macam buah terdapat di web ini',
         ]);
     }
